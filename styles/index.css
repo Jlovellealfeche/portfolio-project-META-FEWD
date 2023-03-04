@@ -14,13 +14,40 @@ body {
   color: hsl(221, 95%, 14%);
   font-family: "Libre Baskerville", sans-serif;
 }
+body .wrapper {
+  text-align: center;
+}
 
-.promotional-banner {
+header {
+  padding: 5vh 1rem;
+}
+header nav, header ul.main-nav {
+  font-size: 17px;
+}
+header li {
+  background-color: hsla(0, 0%, 100%, 0.5);
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner .promotional-banner {
   padding-bottom: 1.5rem;
 }
 
-.main-nav {
+.header-wrapper .main-nav {
   list-style: none;
+}
+
+.content-wrapper {
+  text-align: center;
+  margin: 1em;
+  padding: 1.5rem 30px;
+}
+.content-wrapper .col {
+  padding: 10px;
 }
 
 #title, #contact {
@@ -46,6 +73,10 @@ body {
 .row .content-headings {
   font-size: 1.75rem;
   font-weight: 400;
+}
+
+.contact-text {
+  padding: 1.2rem;
 }
 
 a:link, a:visited {
