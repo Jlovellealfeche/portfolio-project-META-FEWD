@@ -1,15 +1,38 @@
-@media screen and (min-width: 768px) {
-
-}
-
-@media  only screen and (min-width:1024) {
+@media only screen and (min-width: 1024px) {
     
+    .main-nav {
+        display: inline-flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 1.75rem;
+        
+        li {
+            padding: 1.5rem;
+            background-color: transparent;
+        }
+    }
+
+
     .row {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-evenly;
+
     }
-    .col .primary-column {
-        flex: 1 30%;
+   
+    .col {
+        max-width: 30%;
+
     }
+   
+    .primary-col {
+        min-width: 30%;
+        img {
+            min-height: 300px;
+           }
+    }
+   .secondary-col img {
+    max-height: 150px;
+   }
 }
