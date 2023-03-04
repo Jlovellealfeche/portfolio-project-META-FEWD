@@ -10,7 +10,6 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   color: hsl(221, 95%, 14%);
   font-family: "Libre Baskerville", sans-serif;
 }
@@ -25,7 +24,13 @@ header nav, header ul.main-nav {
   font-size: 17px;
 }
 header li {
-  background-color: hsla(0, 0%, 100%, 0.5);
+  background-color: hsla(177, 69%, 75%, 0.5);
+  border-radius: 10px;
+  margin: 10px 25px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 500;
 }
 
 .banner {
@@ -60,6 +65,10 @@ header li {
   margin-bottom: 40px;
 }
 
+img {
+  max-width: 100%;
+}
+
 .bg-img {
   background: url("/images/2.png") no-repeat center/cover;
   position: absolute;
@@ -68,11 +77,24 @@ header li {
   left: 0;
   bottom: 0;
   z-index: -1;
+  min-height: 100vh;
 }
 
 .row .content-headings {
   font-size: 1.75rem;
   font-weight: 400;
+}
+
+footer {
+  padding: 1rem;
+}
+footer .copyright {
+  float: left;
+  padding: 2rem;
+}
+footer .back-top {
+  float: right;
+  padding: 2rem;
 }
 
 .contact-text {
@@ -81,5 +103,5 @@ header li {
 
 a:link, a:visited {
   text-decoration: none;
-  color: blue;
+  color: hsl(221, 95%, 14%);
 }/*# sourceMappingURL=index.css.map */
