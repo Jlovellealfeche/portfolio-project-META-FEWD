@@ -1,0 +1,64 @@
+* {
+    margin:unset;
+    padding:unset;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: $neutralcolor-palebluegrey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: $darkcolor-darkblue;
+    font-family: $LibreBaskerville;
+    
+}
+
+.promotional-banner {
+    padding-bottom: 1.5rem;
+}
+.main-nav {
+    list-style: none;
+}
+
+#title, #contact {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+#title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.bg-img {
+    background: url("/images/2.png") no-repeat center/cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    
+}
+
+.row {
+    .content-headings {
+        font-size: 1.75rem;
+        font-weight: 400;
+    }
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+
+//Media Queries
+
+@media (min-width: 768px) {
+    
+   
+}
