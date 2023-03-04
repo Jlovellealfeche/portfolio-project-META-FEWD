@@ -30,6 +30,7 @@ header {
         background-color: $neautral-greenpastel;
         border-radius: 10px;
         margin: 10px 25px;
+        padding: 1.2rem;
         text-transform: uppercase;
         text-align: center;
         font-size: 1em;
@@ -99,11 +100,7 @@ img {
 .main-footer {
     padding: 1rem;
    
-    .copyright {
-        float: left;
-        padding: 2rem;
-    }
-
+    
     .back-top {
         float: right;
         padding: 2rem;
@@ -122,4 +119,6 @@ a:link, a:visited {
 
 a:hover {
     background-color: hsl(208, 100%, 97%, 0.5);
+    padding: 8px;
+    border-radius: 10px;
 }

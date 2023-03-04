@@ -28,6 +28,7 @@ header li {
   background-color: hsla(176, 28%, 79%, 0.5);
   border-radius: 10px;
   margin: 10px 25px;
+  padding: 1.2rem;
   text-transform: uppercase;
   text-align: center;
   font-size: 1em;
@@ -84,10 +85,6 @@ img {
 .main-footer {
   padding: 1rem;
 }
-.main-footer .copyright {
-  float: left;
-  padding: 2rem;
-}
 .main-footer .back-top {
   float: right;
   padding: 2rem;
@@ -104,6 +101,8 @@ a:link, a:visited {
 
 a:hover {
   background-color: hsla(208, 100%, 97%, 0.5);
+  padding: 8px;
+  border-radius: 10px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -134,5 +133,9 @@ a:hover {
   }
   .secondary-col img {
     max-height: 150px;
+  }
+  .copyright {
+    float: left;
+    padding: 2rem;
   }
 }/*# sourceMappingURL=index.css.map */
