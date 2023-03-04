@@ -2,13 +2,14 @@
 
 }
 
-@media  screen and (min-width:1024) {
+@media  only screen and (min-width:1024) {
+    
     .row {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .col {
+    .col .primary-column {
         flex: 1 30%;
     }
 }

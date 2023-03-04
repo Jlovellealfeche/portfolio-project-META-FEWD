@@ -1,14 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
-@media screen and (min-width: 1024) {
-  .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .col {
-    flex: 1 30%;
-  }
-}
 * {
   margin: unset;
   padding: unset;
@@ -110,4 +100,15 @@ img {
 a:link, a:visited {
   text-decoration: none;
   color: hsl(221, 95%, 14%);
+}
+
+@media only screen and (min-width: 1024) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .col .primary-column {
+    flex: 1 30%;
+  }
 }/*# sourceMappingURL=index.css.map */
