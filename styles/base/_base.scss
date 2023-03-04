@@ -45,6 +45,7 @@ header {
     align-items: center;
     .promotional-banner {
         padding-bottom: 1.5rem;
+        border-radius: 20px;
     }
 }
 
@@ -63,7 +64,10 @@ header {
     padding: 1.5rem 20px;
 
     .col {
-        padding: 10px;
+        padding: 1.5rem;
+        margin: 1.75rem;
+        background-color: $neutral-pinkpastel;
+        border-radius: 20px;
     }
     
 }
@@ -80,19 +84,22 @@ header {
 
 img {
     max-width: 100%;
+    border-radius: 20px;
    }
 
 
 .row {
     .content-headings {
         font-size: 1.75rem;
-        font-weight: 400;
+        font-weight: 700;
+        padding: 1.2rem ;
     }
 }
 
-footer {
+.main-footer {
     padding: 1rem;
 
+   
     .copyright {
         float: left;
         padding: 2rem;

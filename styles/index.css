@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
+@media screen and (min-width: 1024) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .col {
+    flex: 1 30%;
+  }
+}
 * {
   margin: unset;
   padding: unset;
@@ -41,6 +51,7 @@ header li {
 }
 .banner .promotional-banner {
   padding-bottom: 1.5rem;
+  border-radius: 20px;
 }
 
 .header-wrapper .main-nav {
@@ -53,7 +64,10 @@ header li {
   padding: 1.5rem 20px;
 }
 .content-wrapper .col {
-  padding: 10px;
+  padding: 1.5rem;
+  margin: 1.75rem;
+  background-color: hsla(33, 100%, 88%, 0.5);
+  border-radius: 20px;
 }
 
 #title, #contact {
@@ -68,21 +82,23 @@ header li {
 
 img {
   max-width: 100%;
+  border-radius: 20px;
 }
 
 .row .content-headings {
   font-size: 1.75rem;
-  font-weight: 400;
+  font-weight: 700;
+  padding: 1.2rem;
 }
 
-footer {
+.main-footer {
   padding: 1rem;
 }
-footer .copyright {
+.main-footer .copyright {
   float: left;
   padding: 2rem;
 }
-footer .back-top {
+.main-footer .back-top {
   float: right;
   padding: 2rem;
 }
